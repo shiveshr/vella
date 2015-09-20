@@ -1,4 +1,4 @@
-rootProject.name = 'server'
+rootProject.name = 'vella'
 include 'api'
 include 'frontend'
 include 'crawler'
