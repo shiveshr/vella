@@ -1,0 +1,16 @@
+group 'vella'
+version '1.0-SNAPSHOT'
+apply plugin: 'application'
+
+apply plugin: 'java'
+mainClassName = "com.vella.elasticsearch.Query"
+
+sourceCompatibility = 1.5
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.elasticsearch:elasticsearch:1.5.0'
+}

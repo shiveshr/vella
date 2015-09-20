@@ -1,0 +1,12 @@
+rootProject.name = 'server'
+include 'api'
+include 'frontend'
+include 'crawler'
+include 'streamstore'
+include 'database'
+include 'elasticsearch'
+include 'backend'
+include 'controller'
+include 'view'
+include 'model'
+

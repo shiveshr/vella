@@ -1,0 +1,17 @@
+group 'vella'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile project(":model"),
+            project(":controller")
+    compile 'org.codehaus.jackson:jackson-core-asl:1.9.2'
+    compile 'org.codehaus.jackson:jackson-mapper-asl:1.9.2'
+
+}
